@@ -1,0 +1,168 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили */
+body {
+    font-family: "Montserrat";
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.about-section__content {
+    display: flex;
+}
+
+.about-section,
+.skills-section,
+.contact-section {
+    margin-bottom: 30px;
+}
+
+.about-section h2,
+.skills-section h2,
+.contact-section h2 {
+    margin-bottom: 10px;
+}
+
+.about-section__text {
+    margin-left: 30px;
+
+}
+
+.about-section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a45656;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.about-section a:hover {
+    background-color: #555;
+}
+
+.skills-section ul {
+    list-style: none;
+}
+
+.skills-section li {
+    margin-bottom: 5px;
+}
+
+.contact-section ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Стили для изображения */
+.about-section img {
+    display: block;
+    margin: 40px auto;
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Стили для секции "Навыки" */
+.skills-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.skills-section__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.skills-section__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section__item {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Стили для секции "Контакты" */
+.contact-section {
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.contact-section__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-section__text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-section__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section__item {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
